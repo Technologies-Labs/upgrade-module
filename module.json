@@ -1,0 +1,13 @@
+{
+    "name": "UpgradeModule",
+    "alias": "upgrademodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UpgradeModule\\Providers\\UpgradeModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
