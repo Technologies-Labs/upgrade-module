@@ -40,8 +40,8 @@
                                    <livewire:upgrademodule::plans.choose-plan :user='$user'>
                                 </tbody>
                             </table>
-                            <h5><i class="icofont-crown-queen"></i> More Powerful Features <b>Coming Soon!</b>
-                            </h5>
+                            <livewire:usermodule::suggestion.site-suggestion :template="'link'" />
+
                         </div>
                     </div>
                 </div>

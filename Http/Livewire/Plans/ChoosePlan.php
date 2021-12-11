@@ -78,6 +78,9 @@ class ChoosePlan extends Component
             $user->assignRole($plan);
             $this->currentPackage = $plan;
         }
+        // Cache::flush();
+        // cache()->store('redis')->tags('awesome-tag')->flush();
+        cache()->flush();
 
         $this->emit('showMessage', ['icon' => $handler->icon, 'text' => $handler->message, 'title' => $handler->message]);
     }
