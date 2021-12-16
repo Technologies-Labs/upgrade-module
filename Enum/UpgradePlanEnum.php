@@ -8,6 +8,7 @@ use Modules\UpgradeModule\Plans\ProfessionalPlan;
 
 class UpgradePlanEnum
 {
+    const SUPER_ADMIN   = "SUPER_ADMIN";
     const BASIC         = "BASIC";
     const PROFESSIONAL  = "PROFESSIONAL";
     const ADVANCED      = "ADVANCED";
