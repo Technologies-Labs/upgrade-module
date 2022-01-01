@@ -15,6 +15,7 @@ class ChoosePlan extends Component
 {
     use UpgradePlanTrait;
     public $user;
+    public $plan;
     public $plans;
     public $currentPackage;
 
